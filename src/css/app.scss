@@ -1,1 +1,31 @@
 // app global css in SCSS form
+
+// remove unnecessary padding and margin on elements
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+li,
+ul,
+a,
+button {
+  padding: 0px;
+  margin: 0px;
+}
+
+// remove outline on input elements and button
+input,
+textarea,
+button {
+  outline: none;
+}
+
+// remove text-decorationo on anchor elements
+a {
+  text-decoration: none;
+  color: inherit;
+}
