@@ -1,6 +1,6 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated> </q-header>
+  <q-layout view="lHh Lpr lFf" class="tw-bg-grey-100">
+    <o-p-navigation-bar />
 
     <q-page-container>
       <router-view />
@@ -8,4 +8,6 @@
   </q-layout>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import OPNavigationBar from 'src/widgets/layout/OPNavigationBar.vue';
+</script>
