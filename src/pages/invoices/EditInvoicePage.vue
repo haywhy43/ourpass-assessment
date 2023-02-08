@@ -12,6 +12,8 @@
     <o-p-layout-card>
       <o-p-edit-header />
 
+      <o-p-invoice-items />
+
       <div
         class="tw-mt-4 tw-flex md:tw-flex-row tw-flex-col-reverse tw-gap-10 tw-justify-between tw-w-full"
       >
@@ -31,4 +33,5 @@ import OPLayoutCard from 'src/widgets/layout/OPLayoutCard.vue';
 import OPEditHeader from 'src/widgets/invoices/OPEditHeader.vue';
 import OPInvoicePayment from 'src/widgets/invoices/OPInvoicePayment.vue';
 import OPInvoiceTotal from 'src/widgets/invoices/OPInvoiceTotal.vue';
+import OPInvoiceItems from 'src/widgets/invoices/OPInvoiceItems.vue';
 </script>
