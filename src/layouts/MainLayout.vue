@@ -10,4 +10,5 @@
 
 <script setup lang="ts">
 import OPNavigationBar from 'src/widgets/layout/OPNavigationBar.vue';
+import { onMounted } from 'vue';
 </script>

@@ -9,9 +9,12 @@
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "deploy": "npx vercel"
   },
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@quasar/extras": "^1.0.0",
     "quasar": "^2.6.0",
     "tailwindcss": "^3.2.4",
@@ -29,6 +32,7 @@
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^9.0.0",
+    "miragejs": "^0.1.47",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   },
