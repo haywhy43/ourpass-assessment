@@ -1,7 +1,8 @@
 <template>
-  <div class="md:tw-h-14 tw-w-full">
+  <div class="tw-w-full">
+    <div class="tw-h-14" />
     <div
-      class="tw-mx-auto md:tw-flex tw-items-center tw-justify-start tw-gap-14 tw-fixed tw-w-full tw-h-14 tw-bg-white tw-z-50 md:tw-px-10"
+      class="tw-mx-auto md:tw-flex tw-items-center tw-justify-start tw-gap-14 tw-fixed tw-top-0 tw-w-full tw-h-14 tw-bg-white tw-z-50 md:tw-px-10 tw-shadow-[0px_2px_60px_rgba(0,0,0,0.03)]"
     >
       <div
         class="md:tw-w-auto tw-flex tw-w-full tw-justify-between tw-items-center tw-h-14 md:tw-px-0 tw-px-4"

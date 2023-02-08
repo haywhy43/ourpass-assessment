@@ -11,6 +11,7 @@ module.exports = {
 
         primary: {
           100: '#3c40a4',
+          200: '#4B4AA5',
         },
 
         grey: {
@@ -19,6 +20,8 @@ module.exports = {
 
         font: {
           100: '#1B2235',
+          200: '#9EA6B8',
+          300: '#081132',
         },
       },
     },
