@@ -6,12 +6,10 @@
       <div class="tw-flex tw-items-center tw-gap-4">
         <div class="tw-h-14 tw-w-14 tw-rounded-full tw-bg-grey-100"></div>
         <div>
-          <p class="tw-text-sm tw-font-semibold tw-text-font-300">
+          <p class="tw-text-base tw-font-semibold tw-text-font-300">
             Dipa Inhouse
           </p>
-          <p class="tw-text-font-200 tw-mt-1.5 tw-text-sm">
-            hello@dipahouse.com
-          </p>
+          <p class="tw-text-font-200 tw-mt-1 tw-text-sm">hello@dipahouse.com</p>
         </div>
       </div>
 
